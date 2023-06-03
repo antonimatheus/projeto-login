@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 992px){ /* configurações para tablets*/
 
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
     section#login {
-        width: 80vw; 
+        width: 80vw;
+        height: 320px;
     }
     
     section#login > div#imagem {
@@ -32,7 +33,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /* configurações para desktops*/
 
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -40,6 +41,7 @@
 
     section#login {
         width: 950px;
+        height: 350px;
     }
     section#login > div#imagem {
         float: right;
